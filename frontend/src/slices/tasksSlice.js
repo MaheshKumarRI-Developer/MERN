@@ -7,7 +7,7 @@ const initialState = {
   error: "",
 };
 
-const BASE_URL = "http://localhost:4000/api/tasks";
+const BASE_URL = "https://mern-crud-orcin.vercel.app/api/tasks";
 
 //GET
 export const getTasksFromServer = createAsyncThunk(
