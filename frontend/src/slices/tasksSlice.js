@@ -7,7 +7,7 @@ const initialState = {
   error: "",
 };
 
-const BASE_URL = "https://52.13.128.108/api/tasks";
+const BASE_URL = "https://mern-1zzv.onrender.com/api/tasks";
 
 //GET
 export const getTasksFromServer = createAsyncThunk(
